@@ -4,7 +4,7 @@
 			"sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 0F 84 ? ? ? ? 8B 81 ? ? ? ? ",
 			"patternOffset": 3,
 			"addressOffset": 4
-		},
+		}
 	},
 	"versions": {
 		30428500: {
