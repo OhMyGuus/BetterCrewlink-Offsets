@@ -7,23 +7,23 @@
 		}
 	},
 	"versions": {
-		30428500: {
+		"30428500": {
 			"version": "V2022.3.29s",
 			"file": "offsetsV8.json"
 		},
-		30104372: {
+		"30104372": {
 			"version": "XYZ",
 			"file": "offsetsV7.json"
 		},
-		30001864: {
+		"30001864": {
 			"version": "XYZ",
 			"file": "offsetsV7.json"
 		},
-		30155956: {
+		"30155956": {
 			"version": "XYZ",
 			"file": "offsetsV7.json"
 		},
-		29580672: {
+		"29580672": {
 			"version": "XYZ",
 			"file": "offsetsV7.json"
 		}
