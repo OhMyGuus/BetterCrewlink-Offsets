@@ -18,27 +18,27 @@
 	"versions": {
 		"default": {
 			"version": "NA",
-			"file": "offsetsV8.json"
+			"file": "offsets8x86.json"
 		},
 		"30428500": {
 			"version": "V2022.3.29s",
-			"file": "offsetsV8.json"
+			"file": "offsets8x86.json"
 		},
 		"30104372": {
 			"version": "XYZ",
-			"file": "offsetsV7.json"
+			"file": "offsets7x86.json"
 		},
 		"30001864": {
 			"version": "XYZ",
-			"file": "offsetsV7.json"
+			"file": "offsets7x86.json"
 		},
 		"30155956": {
 			"version": "XYZ",
-			"file": "offsetsV7.json"
+			"file": "offsets7x86.json"
 		},
 		"29580672": {
 			"version": "XYZ",
-			"file": "offsetsV7.json"
+			"file": "offsets7x86.json"
 		}
 	}
 }
