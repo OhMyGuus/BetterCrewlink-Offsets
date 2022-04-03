@@ -168,12 +168,17 @@
         "name": "taskPtr"
       },
       {
-        "type": "UINT",
+        "type": "BYTE",
         "name": "impostor"
       },
       {
-        "type": "UINT",
+        "type": "BYTE",
         "name": "dead"
+      },
+      {
+        "type": "SKIP",
+        "skip": 2,
+        "name": "unused"
       },
       {
         "type": "UINT",
