@@ -18,7 +18,7 @@
 	"versions": {
 		"default": {
 			"version": "NA",
-			"file": "offsets8x86.json"
+			"file": "offsets/x86/V2022.3.29s/offsets.json"
 		},
 		"29580672": {
 			"version": "XYZ",

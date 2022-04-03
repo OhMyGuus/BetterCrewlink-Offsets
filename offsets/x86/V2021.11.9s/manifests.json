@@ -1,21 +1,21 @@
 [
   {
     "Date": "2021-11-11T21:36:23Z",
-    "ManiFestId": 7660376491134459569,
+    "ManifestId": 7660376491134459569,
     "InnerNetClient": 30001968,
     "Version": "V2021.11.9.5s",
     "Obfucated": false
   },
   {
     "Date": "2021-11-10T20:26:38Z",
-    "ManiFestId": 6548228893653594809,
+    "ManifestId": 6548228893653594809,
     "InnerNetClient": 30001864,
     "Version": "V2021.11.9.2s",
     "Obfucated": false
   },
   {
     "Date": "2021-11-09T19:00:16Z",
-    "ManiFestId": 3711406830853445086,
+    "ManifestId": 3711406830853445086,
     "InnerNetClient": 30001864,
     "Version": "V2021.11.9s",
     "Obfucated": false
