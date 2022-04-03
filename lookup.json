@@ -18,7 +18,7 @@
 	"versions": {
 		"default": {
 			"version": "NA",
-			"file": "offsets/x86/V2022.3.29s/offsets.json"
+			"file": "offsets8x86.json"
 		},
 		"29580672": {
 			"version": "XYZ",
@@ -30,27 +30,27 @@
 		},
 		"30104372": {
 			"version": "V2022.2.23s",
-			"file": "offsets/x86/V2022.2.24s/offsets.json"
+			"file": "offsets/x86/V2021.12.14s/offsets.json"
 		},
 		"30112580": {
 			"version": "V2022.2.8s",
-			"file": "offsets/x86/V2022.2.24s/offsets.json"
+			"file": "offsets/x86/V2021.12.14s/offsets.json"
 		},
 		"30160488": {
 			"version": "V2021.12.15s",
-			"file": "offsets/x86/V2022.2.24s/offsets.json"
+			"file": "offsets/x86/V2021.12.14s/offsets.json"
 		},
 		"30155956": {
 			"version": "V2021.12.14s",
-			"file": "offsets/x86/V2022.2.24s/offsets.json"
+			"file": "offsets/x86/V2021.12.14s/offsets.json"
 		},
 		"30001968": {
 			"version": "V2021.11.9.5s",
-			"file": "offsets/x86/V2021.11.9.5s/offsets.json"
+			"file": "offsets/x86/V2021.11.9s/offsets.json"
 		},
 		"30001864": {
 			"version": "V2021.11.9s",
-			"file": "offsets/x86/V2021.11.9.5s/offsets.json"
+			"file": "offsets/x86/V2021.11.9s/offsets.json"
 		},
 		"29010272": {
 			"version": "V2021.6.30s",
@@ -62,11 +62,11 @@
 		},
 		"31054772": {
 			"version": "V2021.5.25s",
-			"file": "offsets/x86/V2021.5.25.2s/offsets.json"
+			"file": "offsets/x86/V2021.5.10s/offsets.json"
 		},
 		"31606724": {
 			"version": "V2021.5.10s",
-			"file": "offsets/x86/V2021.5.25.2s/offsets.json"
+			"file": "offsets/x86/V2021.5.10s/offsets.json"
 		},
 		"42899700": {
 			"version": "V2021.4.14s",
@@ -134,67 +134,67 @@
 		},
 		"14310092": {
 			"version": "V2020.9.9s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14288204": {
 			"version": "V2020.9.1s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14779352": {
 			"version": "V2020.9.1s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14283452": {
 			"version": "V2020.8.31s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14822228": {
 			"version": "V2020.8.12s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14822196": {
 			"version": "V2020.8.12s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14835024": {
 			"version": "V2020.6.9s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14343780": {
 			"version": "V2020.5.9s",
-			"file": "offsets/x86/V2020.9.9s/offsets.json"
+			"file": "offsets/x86/V2020.5.9s/offsets.json"
 		},
 		"14100792": {
 			"version": "V2020.4.2s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"14100716": {
 			"version": "V2020.3.29s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"16301344": {
 			"version": "V2020.2.17s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"16297112": {
 			"version": "V2020.2.7s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"15275640": {
 			"version": "V2020.1.14s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"12813836": {
 			"version": "V2019.11.12s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"11491596": {
 			"version": "V2019.11.5s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		},
 		"11982748": {
 			"version": "V2019.11.5s",
-			"file": "offsets/x86/V2020.4.2s/offsets.json"
+			"file": "offsets/x86/V2019.11.5s/offsets.json"
 		}
 	}
 }
