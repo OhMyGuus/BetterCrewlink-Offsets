@@ -1,0 +1,318 @@
+{
+  "meetingHud": [
+    29717412,
+    92,
+    0
+  ],
+  "objectCachePtr": [
+    8
+  ],
+  "meetingHudState": [
+    116
+  ],
+  "allPlayersPtr": [
+    36,
+    92,
+    0,
+    36
+  ],
+  "allPlayers": [
+    8
+  ],
+  "playerCount": [
+    12
+  ],
+  "playerAddrPtr": 16,
+  "shipStatus": [
+    29719724,
+    92,
+    0
+  ],
+  "shipStatus_systems": [
+    140
+  ],
+  "shipStatus_map": [
+    228
+  ],
+  "shipstatus_allDoors": [
+    132
+  ],
+  "door_doorId": 16,
+  "door_isOpen": 20,
+  "deconDoorUpperOpen": [
+    12,
+    12
+  ],
+  "deconDoorLowerOpen": [
+    16,
+    20
+  ],
+  "hqHudSystemType_CompletedConsoles": [
+    12,
+    16
+  ],
+  "HudOverrideSystemType_isActive": [
+    8
+  ],
+  "miniGame": [
+    29719724,
+    92,
+    0
+  ],
+  "planetSurveillanceMinigame_currentCamera": [
+    108
+  ],
+  "planetSurveillanceMinigame_camarasCount": [
+    88,
+    12
+  ],
+  "surveillanceMinigame_FilteredRoomsCount": [
+    64,
+    12
+  ],
+  "lightRadius": [
+    84,
+    28
+  ],
+  "palette": [
+    65535,
+    92
+  ],
+  "palette_playercolor": [
+    244
+  ],
+  "palette_shadowColor": [
+    248
+  ],
+  "playerControl_GameOptions": [
+    65535,
+    92,
+    4
+  ],
+  "gameOptions_MapId": [
+    16
+  ],
+  "gameOptions_MaxPLayers": [
+    8
+  ],
+  "serverManager_currentServer": [
+    65535,
+    92,
+    8,
+    16,
+    8
+  ],
+  "connectFunc": 4095,
+  "showModStampFunc": 4095,
+  "modLateUpdateFunc": 255,
+  "fixedUpdateFunc": 4095,
+  "pingMessageString": 4095,
+  "innerNetClient": {
+    "base": [
+      29720404,
+      92,
+      0
+    ],
+    "networkAddress": 60,
+    "networkPort": 60,
+    "gameMode": 72,
+    "gameId": 76,
+    "hostId": 80,
+    "clientId": 84,
+    "gameState": 112,
+    "onlineScene": 124,
+    "mainMenuScene": 128
+  },
+  "player": {
+    "struct": [
+      {
+        "type": "SKIP",
+        "skip": 8,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "id"
+      },
+      {
+        "type": "UINT",
+        "name": "name"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "color"
+      },
+      {
+        "type": "UINT",
+        "name": "hat"
+      },
+      {
+        "type": "UINT",
+        "name": "pet"
+      },
+      {
+        "type": "UINT",
+        "name": "skin"
+      },
+      {
+        "type": "UINT",
+        "name": "disconnected"
+      },
+      {
+        "type": "UINT",
+        "name": "taskPtr"
+      },
+      {
+        "type": "BYTE",
+        "name": "impostor"
+      },
+      {
+        "type": "BYTE",
+        "name": "dead"
+      },
+      {
+        "type": "SKIP",
+        "skip": 2,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "objectPtr"
+      }
+    ],
+    "isDummy": [
+      137
+    ],
+    "isLocal": [
+      84
+    ],
+    "localX": [
+      96,
+      80
+    ],
+    "localY": [
+      96,
+      84
+    ],
+    "remoteX": [
+      96,
+      60
+    ],
+    "remoteY": [
+      96,
+      64
+    ],
+    "bufferLength": 56,
+    "offsets": [
+      0,
+      0
+    ],
+    "inVent": [
+      49
+    ],
+    "clientId": [
+      28
+    ],
+    "currentOutfit": [
+      -1
+    ],
+    "roleTeam": [
+      -1
+    ],
+    "nameText": [
+      76,
+      128
+    ],
+    "outfit": {
+      "colorId": [
+        -1
+      ],
+      "hatId": [
+        -1
+      ],
+      "skinId": [
+        -1
+      ],
+      "visorId": [
+        -1
+      ],
+      "playerName": [
+        -1
+      ]
+    }
+  },
+  "signatures": {
+    "innerNetClient": {
+      "sig": "8B 0D ? ? ? ? 83 C4 08 8B F0 8B 49 5C 8B 11 85 D2 74 15 8B 4D 0C 8B 49 18 8B 01 50 56 52 8B 00 FF D0",
+      "patternOffset": 2,
+      "addressOffset": 0
+    },
+    "meetingHud": {
+      "sig": "A1 ? ? ? ? 56 8B 40 5C 8B 30 A1 ? ? ? ? F6 80 ? ? ? ? ? 74 0F 83 78 74 00 75 09 50 E8 ? ? ? ? 83 C4 04 6A 00 56 E8 ? ? ? ? 83 C4 08 84 C0 0F 85 ? ? ? ? 57",
+      "patternOffset": 1,
+      "addressOffset": 0
+    },
+    "gameData": {
+      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50",
+      "patternOffset": 1,
+      "addressOffset": 0
+    },
+    "shipStatus": {
+      "sig": "A1 ? ? ? ? FF 35 ? ? ? ? 8B 40 5C FF 30 E8 ? ? ? ? 8B F0 83 C4 08 A1 ? ? ? ? F6 80 ? ? ? ? ?",
+      "patternOffset": 1,
+      "addressOffset": 0
+    },
+    "miniGame": {
+      "sig": "A1 ? ? ? ? 8B 40 5C 8B 08 85 C9 0F 84 ? ? ? ? 8B 01 FF B0 ? ? ? ? 8B 80 ? ? ? ? 51 FF D0 83 C4 08 A1 ? ? ? ? 8B 40 5C",
+      "patternOffset": 1,
+      "addressOffset": 0
+    },
+    "palette": {
+      "sig": "A1 ? ? ? ? 7C 26 F6 80 BB 00 00 ? ?",
+      "patternOffset": 1,
+      "addressOffset": 0
+    },
+    "playerControl": {
+      "sig": "8B 0D ? ? ? ? 83 C4 04 8B 41 5C 8B 00 85 C0 74 2B",
+      "patternOffset": 2,
+      "addressOffset": 0
+    },
+    "showModStamp": {
+      "sig": "55 8B EC 8B 45 08 8B 40 10 85 C0 74 0F 6A 00 6A 01 50 E8 ? ? ? ? 83 C4 0C 5D C3 E9 ? ? ? ?",
+      "patternOffset": 0,
+      "addressOffset": -5
+    },
+    "connectFunc": {
+      "sig": "E8 ? ? ? ? A1 ? ? ? ? 83 C4 0C 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 50 E8 ? ? ? ? 89",
+      "patternOffset": 1,
+      "addressOffset": 4
+    },
+    "fixedUpdateFunc": {
+      "sig": "75 ? 8B 46 ? 85 C0 74 0B 6A 00 50 E8 ? ? ? ? 83 C4 08 83 7E ? 00",
+      "patternOffset": 0,
+      "addressOffset": -5
+    },
+    "pingMessageString": {
+      "sig": "E8 ? ? ? ? 6A 00 50 FF 35 ? ? ? ? E8 ? ? ? ? 83 C4 1C 8B C8 85 F6 74 1A 8B 06 FF B0 ? ? ? ? 8B",
+      "patternOffset": 10,
+      "addressOffset": 0
+    },
+    "modLateUpdate": {
+      "sig": "53 8B DC 83 EC 08 83 E4 F0 83 C4 04 55 8B 6B 04 89 6C 24 04 8B EC 83 EC 28 80 3D",
+      "patternOffset": 0,
+      "addressOffset": 0
+    },
+    "serverManager": {
+      "sig": "A1 ? ? ? ? 89 55 E0 F6 80 ? ? ? ? ? 74 14 83 78 74 00 75 0E 50 E8 ? ? ? ? A1 ? ? ? ? 83 C4 ? 8B 40 ? 6A",
+      "patternOffset": 1,
+      "addressOffset": 0
+    }
+  },
+  "oldMeetingHud": false,
+  "disableWriting": false
+}
