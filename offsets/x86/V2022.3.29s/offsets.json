@@ -1,0 +1,163 @@
+{
+  "meetingHud": [ 65535, 184, 0 ],
+  "objectCachePtr": [ 16 ],
+  "meetingHudState": [ 192 ],
+  "allPlayersPtr": [ 65535, 184, 0, 48 ],
+  "allPlayers": [ 16 ],
+  "playerCount": [ 24 ],
+  "playerAddrPtr": 32,
+  "shipStatus": [ 35458272, 184, 0 ],
+  "shipStatus_systems": [ 216 ],
+  "shipStatus_map": [ 380 ],
+  "shipstatus_allDoors": [ 200 ],
+  "door_doorId": 28,
+  "door_isOpen": 32,
+  "deconDoorUpperOpen": [ 24, 24 ],
+  "deconDoorLowerOpen": [ 32, 24 ],
+  "hqHudSystemType_CompletedConsoles": [ 24, 32 ],
+  "HudOverrideSystemType_isActive": [ 16 ],
+  "miniGame": [ 65535, 184, 0 ],
+  "planetSurveillanceMinigame_currentCamera": [ 208 ],
+  "planetSurveillanceMinigame_camarasCount": [ 168, 24 ],
+  "surveillanceMinigame_FilteredRoomsCount": [ 120, 24 ],
+  "lightRadius": [ 176, 52 ],
+  "palette": [ 65535, 184 ],
+  "palette_playercolor": [ 408 ],
+  "palette_shadowColor": [ 416 ],
+  "playerControl_GameOptions": [ 65535, 184, 8 ],
+  "gameOptions_MapId": [ 24 ],
+  "gameOptions_MaxPLayers": [ 16 ],
+  "serverManager_currentServer": [ 65535, 184, 16, 32, 16 ],
+  "connectFunc": 4095,
+  "showModStampFunc": 4095,
+  "modLateUpdateFunc": 255,
+  "fixedUpdateFunc": 4095,
+  "pingMessageString": 4095,
+  "innerNetClient": {
+    "base": [ 65535, 184, 0 ],
+    "networkAddress": 104,
+    "gameMode": 132,
+    "gameId": 136,
+    "hostId": 140,
+    "clientId": 144,
+    "gameState": 212,
+    "onlineScene": 240,
+    "mainMenuScene": 248
+  },
+  "player": {
+    "struct": [
+      {
+        "type": "SKIP",
+        "skip": 8,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "id"
+      },
+      {
+        "type": "UINT",
+        "name": "outfitsPtr"
+      },
+      {
+        "type": "UINT",
+        "name": "playerLevel"
+      },
+      {
+        "type": "UINT",
+        "name": "disconnected"
+      },
+      {
+        "type": "UINT",
+        "name": "rolePtr"
+      },
+      {
+        "type": "UINT",
+        "name": "taskPtr"
+      },
+      {
+        "type": "BYTE",
+        "name": "dead"
+      },
+      {
+        "type": "SKIP",
+        "skip": 3,
+        "name": "unused2"
+      },
+      {
+        "type": "UINT",
+        "name": "objectPtr"
+      }
+    ],
+    "isDummy": [ 169 ],
+    "isLocal": [ 140 ],
+    "localX": [ 108, 80 ],
+    "localY": [ 108, 84 ],
+    "remoteX": [ 108, 60 ],
+    "remoteY": [ 108, 64 ],
+    "bufferLength": 96,
+    "offsets": [ 0, 0 ],
+    "inVent": [ 56 ],
+    "clientId": [ 40 ],
+    "currentOutfit": [ 52 ],
+    "roleTeam": [ 72 ],
+    "nameText": [ 88, 128 ],
+    "outfit": {
+      "colorId": [ 20 ],
+      "hatId": [ 24 ],
+      "skinId": [ 40 ],
+      "visorId": [ 48 ],
+      "playerName": [ 64 ]
+    }
+  },
+  "signatures": {
+    "innerNetClient": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 0F 84 ? ? ? ? 8B 81 ? ? ? ? ",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "meetingHud": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 74 72 48 8B 39 48 8B 0D ? ? ? ? F6 81 ? ? ? ? ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "gameData": {
+      "sig": "48 8B 0D ? ? ? ? B2 01 88 15 ? ? ? ? 4C 8B 43 30 4D 85 C0",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "shipStatus": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 90 ? ? ? ? 48 8B 0A 48 85 C9 74 ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "miniGame": {
+      "sig": "48 8B 05 ? ? ? ? 48 89 7C 24 ? 48 8B 90 ? ? ? ? 48 C7 02 ? ? ? ? 48 8B 4B 60",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "palette": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 80 ? ? ? ? 0F 10 40 30 EB 2C",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "playerControl": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 01 48 8B CF 48 89 47 20 48 8B 07 48 8B 90 ? ? ? ? FF 90 ? ? ? ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "showModStamp": {},
+    "connectFunc": {},
+    "fixedUpdateFunc": {},
+    "pingMessageString": {},
+    "modLateUpdate": {},
+    "serverManager": {
+      "sig": "48 8B 05 ? ? ? ? 48 89 74 24 ? F6 80 ? ? ? ? 04",
+      "patternOffset": 3,
+      "addressOffset": 4
+    }
+  },
+  "oldMeetingHud": false,
+  "disableWriting": true
+
+}
