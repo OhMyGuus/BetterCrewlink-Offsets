@@ -3,6 +3,7 @@
     "Date": "2021-05-27T22:29:23Z",
     "ManifestId": 171532832512637061,
     "InnerNetClient": 31054772,
+    "BroadcastVersion": 50532300,
     "Version": "V2021.5.25.2s",
     "Obfucated": false
   },
@@ -10,6 +11,7 @@
     "Date": "2021-05-26T21:37:06Z",
     "ManifestId": 3505836702083416897,
     "InnerNetClient": 31054772,
+    "BroadcastVersion": 50532300,
     "Version": "V2021.5.25s",
     "Obfucated": false
   },
@@ -17,6 +19,7 @@
     "Date": "2021-05-10T20:01:37Z",
     "ManifestId": 6640729220842422804,
     "InnerNetClient": 31606724,
+    "BroadcastVersion": 50532300,
     "Version": "V2021.5.10s",
     "Obfucated": false
   }

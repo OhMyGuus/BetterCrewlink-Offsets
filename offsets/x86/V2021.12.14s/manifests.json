@@ -3,6 +3,7 @@
     "Date": "2022-02-25T01:52:49Z",
     "ManifestId": 3765974117789159936,
     "InnerNetClient": 30104372,
+    "BroadcastVersion": 50552300,
     "Version": "V2022.2.24s",
     "Obfucated": false
   },
@@ -10,6 +11,7 @@
     "Date": "2022-02-24T21:09:12Z",
     "ManifestId": 4946739663065807500,
     "InnerNetClient": 30104372,
+    "BroadcastVersion": 50552300,
     "Version": "V2022.2.23s",
     "Obfucated": false
   },
@@ -17,6 +19,7 @@
     "Date": "2022-02-16T22:03:10Z",
     "ManifestId": 623947946057191577,
     "InnerNetClient": 30112580,
+    "BroadcastVersion": 50547300,
     "Version": "V2022.2.8s",
     "Obfucated": false
   },
@@ -24,6 +27,7 @@
     "Date": "2021-12-16T20:34:21Z",
     "ManifestId": 407539178195941172,
     "InnerNetClient": 30160488,
+    "BroadcastVersion": 50547300,
     "Version": "V2021.12.15s",
     "Obfucated": false
   },
@@ -31,6 +35,7 @@
     "Date": "2021-12-14T18:59:50Z",
     "ManifestId": 781144051117197771,
     "InnerNetClient": 30155956,
+    "BroadcastVersion": 50547300,
     "Version": "V2021.12.14s",
     "Obfucated": false
   }
