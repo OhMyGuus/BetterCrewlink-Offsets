@@ -1,7 +1,7 @@
 {
 	"patterns": {
 		"x64": {
-			"innerNetClient": {
+			"broadcastVersion": {
 				"sig": "33 D2 B9 ? ? ? ? 48 83 C4 ? E9 ? ? ? ?",
 				"patternOffset": 3,
 				"addressOffset": 0
