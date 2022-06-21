@@ -1,106 +1,106 @@
 {
   "meetingHud": [
-    29717412,
-    92,
+    36969344,
+    184,
     0
   ],
   "objectCachePtr": [
-    8
+    16
   ],
   "meetingHudState": [
-    120
+    192
   ],
   "allPlayersPtr": [
-    36,
-    92,
+    48,
+    184,
     0,
-    36
+    48
   ],
   "allPlayers": [
-    8
+    16
   ],
   "playerCount": [
-    12
+    24
   ],
-  "playerAddrPtr": 16,
+  "playerAddrPtr": 32,
   "shipStatus": [
-    29719724,
-    92,
+    37178328,
+    184,
     0
   ],
   "shipStatus_systems": [
-    144
+    216
   ],
   "shipStatus_map": [
-    232
+    380
   ],
   "shipstatus_allDoors": [
-    136
+    200
   ],
-  "door_doorId": 16,
-  "door_isOpen": 20,
+  "door_doorId": 28,
+  "door_isOpen": 32,
   "deconDoorUpperOpen": [
-    12,
-    12
+    24,
+    24
   ],
   "deconDoorLowerOpen": [
-    16,
-    20
+    32,
+    32
   ],
   "hqHudSystemType_CompletedConsoles": [
-    12,
-    16
+    24,
+    32
   ],
   "HudOverrideSystemType_isActive": [
-    8
+    16
   ],
   "miniGame": [
-    29719724,
-    92,
+    36980248,
+    184,
     0
   ],
   "planetSurveillanceMinigame_currentCamera": [
-    108
+    208
   ],
   "planetSurveillanceMinigame_camarasCount": [
-    88,
-    12
+    168,
+    24
   ],
   "surveillanceMinigame_FilteredRoomsCount": [
-    64,
-    12
+    120,
+    24
   ],
   "lightRadius": [
-    108,
-    28
+    152,
+    52
   ],
   "palette": [
-    65535,
-    92
+    37054352,
+    184
   ],
   "palette_playercolor": [
-    420
-  ],
-  "palette_shadowColor": [
     424
   ],
+  "palette_shadowColor": [
+    432
+  ],
   "playerControl_GameOptions": [
-    65535,
-    92,
-    4
+    37068784,
+    184,
+    8
   ],
   "gameOptions_MapId": [
-    48
+    56
   ],
   "gameOptions_MaxPLayers": [
-    40
+    48
   ],
   "serverManager_currentServer": [
-    65535,
-    92,
-    8,
+    37166888,
+    184,
     16,
-    8
+    32,
+    16
   ],
   "connectFunc": 4095,
   "showModStampFunc": 4095,
@@ -109,25 +109,25 @@
   "pingMessageString": 4095,
   "innerNetClient": {
     "base": [
-      29720404,
-      92,
+      37051656,
+      184,
       0
     ],
-    "networkAddress": 56,
-    "networkPort": 60,
-    "gameMode": 76,
-    "gameId": 80,
-    "hostId": 84,
-    "clientId": 88,
-    "gameState": 124,
-    "onlineScene": 140,
-    "mainMenuScene": 144
+    "networkAddress": 104,
+    "networkPort": 112,
+    "gameMode": 132,
+    "gameId": 136,
+    "hostId": 140,
+    "clientId": 144,
+    "gameState": 212,
+    "onlineScene": 240,
+    "mainMenuScene": 248
   },
   "player": {
     "struct": [
       {
         "type": "SKIP",
-        "skip": 8,
+        "skip": 16,
         "name": "unused"
       },
       {
@@ -136,12 +136,17 @@
       },
       {
         "type": "SKIP",
-        "skip": 12,
+        "skip": 28,
         "name": "unused"
       },
       {
         "type": "UINT",
         "name": "outfitsPtr"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
       },
       {
         "type": "UINT",
@@ -156,8 +161,18 @@
         "name": "rolePtr"
       },
       {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
+      },
+      {
         "type": "UINT",
         "name": "taskPtr"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
       },
       {
         "type": "BYTE",
@@ -165,7 +180,7 @@
       },
       {
         "type": "SKIP",
-        "skip": 3,
+        "skip": 7,
         "name": "unused"
       },
       {
@@ -174,131 +189,131 @@
       }
     ],
     "isDummy": [
-      169
+      265
     ],
     "isLocal": [
-      108
+      152
     ],
     "localX": [
-      120,
-      80
+      176,
+      108
     ],
     "localY": [
-      120,
-      84
+      176,
+      112
     ],
     "remoteX": [
-      120,
-      60
+      176,
+      88
     ],
     "remoteY": [
-      120,
-      64
+      176,
+      92
     ],
-    "bufferLength": 56,
+    "bufferLength": 96,
     "offsets": [
       0,
       0
     ],
     "inVent": [
-      68
+      92
     ],
     "clientId": [
-      28
+      40
     ],
     "currentOutfit": [
-      64
+      88
     ],
     "roleTeam": [
-      60
+      72
     ],
     "nameText": [
       -1,
-      128
+      216
     ],
     "outfit": {
       "colorId": [
-        12
+        20
       ],
       "hatId": [
-        16
-      ],
-      "skinId": [
         24
       ],
+      "skinId": [
+        40
+      ],
       "visorId": [
-        28
+        48
       ],
       "playerName": [
-        40
+        72
       ]
     }
   },
   "signatures": {
     "innerNetClient": {
-      "sig": "8B 0D ? ? ? ? 83 C4 08 8B F0 8B 49 5C 8B 11 85 D2 74 15 8B 4D 0C 8B 49 18 8B 01 50 56 52 8B 00 FF D0",
-      "patternOffset": 2,
-      "addressOffset": 0
-    },
-    "meetingHud": {
-      "sig": "A1 ? ? ? ? 56 8B 40 5C 8B 30 A1 ? ? ? ? F6 80 ? ? ? ? ? 74 0F 83 78 74 00 75 09 50 E8 ? ? ? ? 83 C4 04 6A 00 56 E8 ? ? ? ? 83 C4 08 84 C0 0F 85 ? ? ? ? 57",
-      "patternOffset": 1,
-      "addressOffset": 0
-    },
-    "gameData": {
-      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50",
-      "patternOffset": 1,
-      "addressOffset": 0
-    },
-    "shipStatus": {
-      "sig": "A1 ? ? ? ? FF 35 ? ? ? ? 8B 40 5C FF 30 E8 ? ? ? ? 8B F0 83 C4 08 A1 ? ? ? ? F6 80 ? ? ? ? ?",
-      "patternOffset": 1,
-      "addressOffset": 0
-    },
-    "miniGame": {
-      "sig": "A1 ? ? ? ? 8B 40 5C 8B 08 85 C9 0F 84 ? ? ? ? 8B 01 FF B0 ? ? ? ? 8B 80 ? ? ? ? 51 FF D0 83 C4 08 A1 ? ? ? ? 8B 40 5C",
-      "patternOffset": 1,
-      "addressOffset": 0
-    },
-    "palette": {
-      "sig": "A1 ? ? ? ? 7C 26 F6 80 BB 00 00 ? ?",
-      "patternOffset": 1,
-      "addressOffset": 0
-    },
-    "playerControl": {
-      "sig": "8B 0D ? ? ? ? 83 C4 04 8B 41 5C 8B 00 85 C0 74 2B",
-      "patternOffset": 2,
-      "addressOffset": 0
-    },
-    "showModStamp": {
-      "sig": "55 8B EC 8B 45 08 8B 40 10 85 C0 74 0F 6A 00 6A 01 50 E8 ? ? ? ? 83 C4 0C 5D C3 E9 ? ? ? ?",
-      "patternOffset": 0,
-      "addressOffset": -5
-    },
-    "connectFunc": {
-      "sig": "E8 ? ? ? ? A1 ? ? ? ? 83 C4 0C 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 50 E8 ? ? ? ? 89",
-      "patternOffset": 1,
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 0F 84 ? ? ? ? 8B 81 ? ? ? ? ",
+      "patternOffset": 3,
       "addressOffset": 4
     },
-    "fixedUpdateFunc": {
-      "sig": "75 ? 8B 46 ? 85 C0 74 0B 6A 00 50 E8 ? ? ? ? 83 C4 08 83 7E ? 00",
+    "meetingHud": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 74 72 48 8B 39 48 8B 0D ? ? ? ? F6 81 ? ? ? ? ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "gameData": {
+      "sig": "48 8B 0D ? ? ? ? B2 01 88 15 ? ? ? ? 4C 8B 43 30 4D 85 C0",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "shipStatus": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 90 ? ? ? ? 48 8B 0A 48 85 C9 74 ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "miniGame": {
+      "sig": "48 8B 05 ? ? ? ? 48 89 7C 24 ? 48 8B 90 ? ? ? ? 48 C7 02 ? ? ? ? 48 8B 4B 60",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "palette": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 80 ? ? ? ? 0F 10 40 30 EB 2C",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "playerControl": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 01 48 8B CF 48 89 47 20 48 8B 07 48 8B 90 ? ? ? ? FF 90 ? ? ? ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "showModStamp": {
+      "sig": null,
       "patternOffset": 0,
-      "addressOffset": -5
+      "addressOffset": 0
+    },
+    "connectFunc": {
+      "sig": null,
+      "patternOffset": 0,
+      "addressOffset": 0
+    },
+    "fixedUpdateFunc": {
+      "sig": null,
+      "patternOffset": 0,
+      "addressOffset": 0
     },
     "pingMessageString": {
-      "sig": "E8 ? ? ? ? 6A 00 50 FF 35 ? ? ? ? E8 ? ? ? ? 83 C4 1C 8B C8 85 F6 74 1A 8B 06 FF B0 ? ? ? ? 8B",
-      "patternOffset": 10,
+      "sig": null,
+      "patternOffset": 0,
       "addressOffset": 0
     },
     "modLateUpdate": {
-      "sig": "53 8B DC 83 EC 08 83 E4 F0 83 C4 04 55 8B 6B 04 89 6C 24 04 8B EC 83 EC 28 80 3D",
+      "sig": null,
       "patternOffset": 0,
       "addressOffset": 0
     },
     "serverManager": {
-      "sig": "A1 ? ? ? ? 89 55 E0 F6 80 ? ? ? ? ? 74 14 83 78 74 00 75 0E 50 E8 ? ? ? ? A1 ? ? ? ? 83 C4 ? 8B 40 ? 6A",
-      "patternOffset": 1,
-      "addressOffset": 0
+      "sig": "48 8B 05 ? ? ? ? 48 89 74 24 ? F6 80 ? ? ? ? 04",
+      "patternOffset": 3,
+      "addressOffset": 4
     }
   },
   "oldMeetingHud": false,
