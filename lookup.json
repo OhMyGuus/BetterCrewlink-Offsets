@@ -18,7 +18,12 @@
 	"versions": {
 		"default": {
 			"version": "NA",
-			"file": "V2022.3.29/offsets.json",
+			"file": "V2022.6.21/offsets.json"
+			"offsetsVersion": 1
+		},
+		"50558200": {
+		  "version": "V2022.6.21",
+		  "file": "V2022.6.21/offsets.json"
 			"offsetsVersion": 1
 		},
 		"50553700": {
