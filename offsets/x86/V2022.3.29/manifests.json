@@ -1,10 +1,11 @@
 [
   {
-    "Date": "2022-03-31T16:59:41Z",
+    "Date": "2022-03-31T18:59:41",
     "ManifestId": 1994315496259700450,
     "InnerNetClient": 30428500,
     "BroadcastVersion": 50553700,
-    "Version": "V2022.3.29s",
-    "Obfucated": false
+    "Version": "2022.3.29",
+    "Obfucated": false,
+    "x64": false
   }
 ]

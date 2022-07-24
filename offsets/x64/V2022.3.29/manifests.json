@@ -4,7 +4,8 @@
     "ManifestId": 1,
     "InnerNetClient": 37051656,
     "BroadcastVersion": 50553700,
-    "Version": "V2022.3.29m",
-    "Obfucated": false
+    "Version": "2022.3.29",
+    "Obfucated": false,
+    "x64": true
   }
 ]

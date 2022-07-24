@@ -1,74 +1,83 @@
 [
   {
-    "Date": "2020-09-14T15:41:25Z",
+    "Date": "2020-09-14T17:41:25",
     "ManifestId": 3596575937380717449,
     "InnerNetClient": 14310092,
     "BroadcastVersion": 50516550,
-    "Version": "V2020.9.9s",
-    "Obfucated": false
+    "Version": "2020.9.9",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-09-02T03:04:02Z",
+    "Date": "2020-09-02T05:04:02",
     "ManifestId": 5957631781288795948,
     "InnerNetClient": 14288204,
     "BroadcastVersion": 50516250,
-    "Version": "V2020.9.1s",
-    "Obfucated": false
+    "Version": "2020.9.1",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-09-02T03:03:47Z",
+    "Date": "2020-09-02T05:03:47",
     "ManifestId": 3948341867684505905,
     "InnerNetClient": 14779352,
     "BroadcastVersion": 50516250,
-    "Version": "V2020.9.1s",
-    "Obfucated": false
+    "Version": "2020.9.1",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-09-01T01:31:32Z",
+    "Date": "2020-09-01T03:31:32",
     "ManifestId": 8820802508818016315,
     "InnerNetClient": 14283452,
     "BroadcastVersion": 50515800,
-    "Version": "V2020.8.31s",
-    "Obfucated": false
+    "Version": "2020.8.31",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-08-18T23:14:41Z",
+    "Date": "2020-08-19T01:14:41",
     "ManifestId": 8698757747328064493,
     "InnerNetClient": 14822228,
     "BroadcastVersion": 50512900,
-    "Version": "V2020.8.12s",
-    "Obfucated": false
+    "Version": "2020.8.12",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-08-12T18:37:12Z",
+    "Date": "2020-08-12T20:37:12",
     "ManifestId": 7185019524463673033,
     "InnerNetClient": 14822196,
     "BroadcastVersion": 50512900,
-    "Version": "V2020.8.12s",
-    "Obfucated": false
+    "Version": "2020.8.12",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-06-11T20:03:17Z",
+    "Date": "2020-06-11T22:03:17",
     "ManifestId": 790870617990906244,
     "InnerNetClient": 14835024,
     "BroadcastVersion": 50510900,
-    "Version": "V2020.6.9s",
-    "Obfucated": false
+    "Version": "2020.6.9",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-06-11T17:50:08Z",
+    "Date": "2020-06-11T19:50:08",
     "ManifestId": 6320154229190358631,
     "InnerNetClient": 14835024,
     "BroadcastVersion": 50510900,
-    "Version": "V2020.6.9s",
-    "Obfucated": false
+    "Version": "2020.6.9",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2020-05-10T19:11:59Z",
+    "Date": "2020-05-10T21:11:59",
     "ManifestId": 8810314642632014619,
     "InnerNetClient": 14343780,
     "BroadcastVersion": 50508000,
-    "Version": "V2020.5.9s",
-    "Obfucated": false
+    "Version": "2020.5.9",
+    "Obfucated": false,
+    "x64": false
   }
 ]

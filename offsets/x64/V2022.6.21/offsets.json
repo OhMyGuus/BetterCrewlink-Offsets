@@ -41,7 +41,7 @@
   "door_isOpen": 32,
   "deconDoorUpperOpen": [
     24,
-    24
+    32
   ],
   "deconDoorLowerOpen": [
     32,

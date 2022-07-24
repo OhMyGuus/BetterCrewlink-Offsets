@@ -1,26 +1,29 @@
 [
   {
-    "Date": "2021-05-27T22:29:23Z",
+    "Date": "2021-05-28T00:29:23",
     "ManifestId": 171532832512637061,
     "InnerNetClient": 31054772,
     "BroadcastVersion": 50532300,
-    "Version": "V2021.5.25.2s",
-    "Obfucated": false
+    "Version": "2021.5.25.2",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2021-05-26T21:37:06Z",
+    "Date": "2021-05-26T23:37:06",
     "ManifestId": 3505836702083416897,
     "InnerNetClient": 31054772,
     "BroadcastVersion": 50532300,
-    "Version": "V2021.5.25s",
-    "Obfucated": false
+    "Version": "2021.5.25",
+    "Obfucated": false,
+    "x64": false
   },
   {
-    "Date": "2021-05-10T20:01:37Z",
+    "Date": "2021-05-10T22:01:37",
     "ManifestId": 6640729220842422804,
     "InnerNetClient": 31606724,
     "BroadcastVersion": 50532300,
-    "Version": "V2021.5.10s",
-    "Obfucated": false
+    "Version": "2021.5.10",
+    "Obfucated": false,
+    "x64": false
   }
 ]
