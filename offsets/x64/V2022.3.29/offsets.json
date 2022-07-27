@@ -1,41 +1,120 @@
 {
-  "meetingHud": [36969344,184,0],
-  "objectCachePtr": [16],
-  "meetingHudState": [192],
-  "allPlayersPtr": [37267168,184,0,48],
-  "allPlayers": [16],
-  "playerCount": [24],
+  "meetingHud": [
+    36969344,
+    184,
+    0
+  ],
+  "objectCachePtr": [
+    16
+  ],
+  "meetingHudState": [
+    192
+  ],
+  "allPlayersPtr": [
+    48,
+    184,
+    0,
+    48
+  ],
+  "allPlayers": [
+    16
+  ],
+  "playerCount": [
+    24
+  ],
   "playerAddrPtr": 32,
-  "shipStatus": [37178328,184,0],
-  "shipStatus_systems": [216],
-  "shipStatus_map": [380],
-  "shipstatus_allDoors": [200],
+  "shipStatus": [
+    37178328,
+    184,
+    0
+  ],
+  "shipStatus_systems": [
+    216
+  ],
+  "shipStatus_map": [
+    380
+  ],
+  "shipstatus_allDoors": [
+    200
+  ],
   "door_doorId": 28,
   "door_isOpen": 32,
-  "deconDoorUpperOpen": [24,24],
-  "deconDoorLowerOpen": [32,24],
-  "hqHudSystemType_CompletedConsoles": [24,32],
-  "HudOverrideSystemType_isActive": [16],
-  "miniGame": [36980248,184,0],
-  "planetSurveillanceMinigame_currentCamera": [208],
-  "planetSurveillanceMinigame_camarasCount": [168,24],
-  "surveillanceMinigame_FilteredRoomsCount": [120,24],
-  "lightRadius": [176,52],
-  "palette": [37054352,184],
-  "palette_playercolor": [408],
-  "palette_shadowColor": [416],
-  "playerControl_GameOptions": [37068784,184,8],
-  "gameOptions_MapId": [56],
-  "gameOptions_MaxPLayers": [48],
-  "serverManager_currentServer": [37166888,184,16,32,16],
+  "deconDoorUpperOpen": [
+    24,
+    32
+  ],
+  "deconDoorLowerOpen": [
+    32,
+    32
+  ],
+  "hqHudSystemType_CompletedConsoles": [
+    24,
+    32
+  ],
+  "HudOverrideSystemType_isActive": [
+    16
+  ],
+  "miniGame": [
+    36980248,
+    184,
+    0
+  ],
+  "planetSurveillanceMinigame_currentCamera": [
+    208
+  ],
+  "planetSurveillanceMinigame_camarasCount": [
+    168,
+    24
+  ],
+  "surveillanceMinigame_FilteredRoomsCount": [
+    120,
+    24
+  ],
+  "lightRadius": [
+    176,
+    52
+  ],
+  "palette": [
+    37054352,
+    184
+  ],
+  "palette_playercolor": [
+    408
+  ],
+  "palette_shadowColor": [
+    416
+  ],
+  "playerControl_GameOptions": [
+    37068784,
+    184,
+    8
+  ],
+  "gameOptions_MapId": [
+    56
+  ],
+  "gameOptions_MaxPLayers": [
+    48
+  ],
+  "serverManager_currentServer": [
+    37166888,
+    184,
+    16,
+    32,
+    16
+  ],
   "connectFunc": 4095,
   "showModStampFunc": 4095,
   "modLateUpdateFunc": 255,
   "fixedUpdateFunc": 4095,
   "pingMessageString": 4095,
   "innerNetClient": {
-    "base": [37051656,184,0],
+    "base": [
+      37051656,
+      184,
+      0
+    ],
     "networkAddress": 104,
+    "networkPort": 112,
     "gameMode": 132,
     "gameId": 136,
     "hostId": 140,
@@ -58,7 +137,7 @@
       {
         "type": "SKIP",
         "skip": 20,
-        "name": "unused1"
+        "name": "unused"
       },
       {
         "type": "UINT",
@@ -67,7 +146,7 @@
       {
         "type": "SKIP",
         "skip": 4,
-        "name": "unused2"
+        "name": "unused"
       },
       {
         "type": "UINT",
@@ -96,12 +175,12 @@
         "name": "unused"
       },
       {
-        "type": "UINT",
+        "type": "BYTE",
         "name": "dead"
       },
       {
         "type": "SKIP",
-        "skip": 4,
+        "skip": 7,
         "name": "unused"
       },
       {
@@ -109,25 +188,65 @@
         "name": "objectPtr"
       }
     ],
-    "isDummy": [313],
-    "isLocal": [176],
-    "localX": [200,108],
-    "localY": [200,112],
-    "remoteX": [200,88],
-    "remoteY": [200,92],
+    "isDummy": [
+      313
+    ],
+    "isLocal": [
+      176
+    ],
+    "localX": [
+      200,
+      108
+    ],
+    "localY": [
+      200,
+      112
+    ],
+    "remoteX": [
+      200,
+      88
+    ],
+    "remoteY": [
+      200,
+      92
+    ],
     "bufferLength": 96,
-    "offsets": [0,0],
-    "inVent": [108],
-    "clientId": [40],
-    "currentOutfit": [104],
-    "roleTeam": [72],
-    "nameText": [160,216],
+    "offsets": [
+      0,
+      0
+    ],
+    "inVent": [
+      108
+    ],
+    "clientId": [
+      40
+    ],
+    "currentOutfit": [
+      104
+    ],
+    "roleTeam": [
+      72
+    ],
+    "nameText": [
+      160,
+      216
+    ],
     "outfit": {
-      "colorId": [20],
-      "hatId": [24],
-      "skinId": [40],
-      "visorId": [48],
-      "playerName": [64]
+      "colorId": [
+        20
+      ],
+      "hatId": [
+        24
+      ],
+      "skinId": [
+        40
+      ],
+      "visorId": [
+        48
+      ],
+      "playerName": [
+        64
+      ]
     }
   },
   "signatures": {
@@ -176,5 +295,7 @@
       "patternOffset": 3,
       "addressOffset": 4
     }
-  }
+  },
+  "oldMeetingHud": false,
+  "disableWriting": false
 }
