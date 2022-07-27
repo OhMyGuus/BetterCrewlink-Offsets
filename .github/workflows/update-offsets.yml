@@ -90,7 +90,7 @@ jobs:
             base: "main"
             title: "Updated offsets"
             body: "Automaticly updated offsets using Github Actions. \r\n Check the changes before merge"
-            token: '${{ secrets.GH_TOKEN }}'
+            #token: '${{ secrets.GH_TOKEN }}'
             branch: update_bot
             branch-suffix: 'short-commit-hash'
             commit-message: "Updated offsets"
