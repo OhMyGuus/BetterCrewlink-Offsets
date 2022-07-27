@@ -1,5 +1,13 @@
 [
   {
+    "Date": "2022-07-13T18:59:02Z",
+    "ManifestId": 6859044017310390774,
+    "InnerNetClient": 30478888,
+    "BroadcastVersion": 50558200,
+    "Version": "V2022.7.12s",
+    "Obfucated": false
+  },
+  {
     "Date": "2022-06-21T16:59:56Z",
     "ManifestId": 7098949171778272067,
     "InnerNetClient": 30478816,

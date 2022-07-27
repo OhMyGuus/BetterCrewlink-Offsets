@@ -5,6 +5,7 @@
     "InnerNetClient": 37051656,
     "BroadcastVersion": 50553700,
     "Version": "V2022.3.29m",
-    "Obfucated": false
+    "Obfucated": false,
+    "x64": true
   }
 ]

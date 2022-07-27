@@ -41,7 +41,7 @@
   "door_isOpen": 20,
   "deconDoorUpperOpen": [
     12,
-    12
+    20
   ],
   "deconDoorLowerOpen": [
     16,
@@ -113,7 +113,7 @@
       92,
       0
     ],
-    "networkAddress": 60,
+    "networkAddress": 56,
     "networkPort": 60,
     "gameMode": 76,
     "gameId": 80,
