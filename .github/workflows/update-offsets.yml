@@ -16,7 +16,7 @@ jobs:
     environment: main
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+     # - uses: actions/checkout@v3
       - uses: robinraju/release-downloader@v1.4
         with: 
           repository: "OhMyGuus/BetterCrewlink-Offsets-Generator"
@@ -63,7 +63,7 @@ jobs:
         with:
           repository: 'OhMyGuus/BetterCrewlink-Offsets'
           path: 'BetterCrewlink-Offsets'
-          token: '${{ secrets.GH_TOKEN }}'
+          #token: '${{ secrets.GH_TOKEN }}'
           #ref: update_bot
 
       - name: Move files
