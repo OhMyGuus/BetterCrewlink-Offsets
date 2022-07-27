@@ -1,0 +1,99 @@
+
+name: Update offsets
+
+on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+    environment: main
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: robinraju/release-downloader@v1.4
+        with: 
+          repository: "OhMyGuus/BetterCrewlink-Offsets-Generator"
+          latest: true
+          fileName: "release.zip"
+        
+      - name: Extract some files
+        run: 7z x release.zip -o"offset-generator"
+        
+      - uses: actions/checkout@v3
+        with:
+          repository: 'OhMyGuus/AmongUs-FilesX64'
+          path: 'offset-generator/WindowsVersionFiles'
+          # Default: ${{ github.token }}
+          token: '${{ secrets.GH_TOKEN }}'
+          
+      - name: Cache game files
+        uses: actions/cache@v2
+        with:
+          path: |
+            offset-generator/working/
+          key: ${{ runner.os }}-${{ secrets.CACHE_VERSION }}
+
+      - name: List files
+        shell: bash
+        run: |
+          cd offset-generator
+          ls -laR
+
+      - name: Run generator
+        shell: bash
+        run: |
+          cd offset-generator
+          rm -rf working/output
+          dotnet ./BCL-OffsetGenerator.dll --steamenabled true --steamusername "BetterCrewlink" --steampassword "${{secrets.STEAM_PASSWORD}}" -- --localpath "WindowsVersionFiles/" --localenabled true --steamdbcookie "${{secrets.STEAM_COOKIE}}" --proxy_host "${{secrets.PROXY_HOST}}" --proxy_username "${{secrets.PROXY_USERNAME}}" --proxy_password "${{secrets.PROXY_PASSWORD}}"
+        
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Build output
+          path: offset-generator/working/output
+
+      - uses: actions/checkout@v3
+        with:
+          repository: 'OhMyGuus/BetterCrewlink-Offsets'
+          path: 'BetterCrewlink-Offsets'
+          token: '${{ secrets.GH_TOKEN }}'
+          #ref: update_bot
+
+      - name: Move files
+        shell: bash
+        run: |
+          rm -rf BetterCrewlink-Offsets/offsets
+          cp -r offset-generator/working/output/* BetterCrewlink-Offsets/
+
+      # Push and commit 
+#      - name: Git commit & push
+#        run: |
+#            cd BetterCrewlink-Offsets
+#            git config user.name 'github-actions[bot]'
+#            git config user.email 'github-actions[bot]@users.noreply.github.com'
+#            git add . 
+#            git diff --quiet && git diff --staged --quiet && echo "No changes detected"  || echo "changes detected committing.." && git commit -am 'Updated offsets' && echo "COMMITED=1" >> $GITHUB_ENV
+#            git push
+          
+      - name: Create PR..
+        #if:  env.COMMITED == 1
+        uses: peter-evans/create-pull-request@v4
+        with:
+            path: "BetterCrewlink-Offsets/"
+            base: "main"
+            title: "Updated offsets"
+            body: "Automaticly updated offsets using Github Actions. \r\n Check the changes before merge"
+            #token: '${{ secrets.GH_TOKEN }}'
+            branch: update_bot
+            branch-suffix: 'short-commit-hash'
+            commit-message: "Updated offsets"
+            assignees: "OhMyGuus"
+            reviewers: "OhMyGuus"
+
