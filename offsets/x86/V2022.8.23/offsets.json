@@ -8,7 +8,7 @@
     8
   ],
   "meetingHudState": [
-    116
+    120
   ],
   "allPlayersPtr": [
     36,
@@ -29,13 +29,13 @@
     0
   ],
   "shipStatus_systems": [
-    140
+    144
   ],
   "shipStatus_map": [
-    228
+    232
   ],
   "shipstatus_allDoors": [
-    132
+    136
   ],
   "door_doorId": 16,
   "door_isOpen": 20,
@@ -60,18 +60,18 @@
     0
   ],
   "planetSurveillanceMinigame_currentCamera": [
-    108
+    112
   ],
   "planetSurveillanceMinigame_camarasCount": [
-    88,
+    92,
     12
   ],
   "surveillanceMinigame_FilteredRoomsCount": [
-    64,
+    68,
     12
   ],
   "lightRadius": [
-    84,
+    108,
     28
   ],
   "palette": [
@@ -79,10 +79,10 @@
     92
   ],
   "palette_playercolor": [
-    244
+    420
   ],
   "palette_shadowColor": [
-    248
+    424
   ],
   "playerControl_GameOptions": [
     65535,
@@ -90,10 +90,10 @@
     4
   ],
   "gameOptions_MapId": [
-    16
+    48
   ],
   "gameOptions_MaxPLayers": [
-    8
+    40
   ],
   "serverManager_currentServer": [
     65535,
@@ -115,13 +115,13 @@
     ],
     "networkAddress": 56,
     "networkPort": 60,
-    "gameMode": 72,
-    "gameId": 76,
-    "hostId": 80,
-    "clientId": 84,
-    "gameState": 112,
-    "onlineScene": 124,
-    "mainMenuScene": 128
+    "gameMode": 76,
+    "gameId": 80,
+    "hostId": 84,
+    "clientId": 88,
+    "gameState": 128,
+    "onlineScene": 144,
+    "mainMenuScene": 148
   },
   "player": {
     "struct": [
@@ -135,29 +135,17 @@
         "name": "id"
       },
       {
-        "type": "UINT",
-        "name": "name"
-      },
-      {
         "type": "SKIP",
-        "skip": 4,
+        "skip": 12,
         "name": "unused"
       },
       {
         "type": "UINT",
-        "name": "color"
+        "name": "outfitsPtr"
       },
       {
         "type": "UINT",
-        "name": "hat"
-      },
-      {
-        "type": "UINT",
-        "name": "pet"
-      },
-      {
-        "type": "UINT",
-        "name": "skin"
+        "name": "playerLevel"
       },
       {
         "type": "UINT",
@@ -165,11 +153,11 @@
       },
       {
         "type": "UINT",
-        "name": "taskPtr"
+        "name": "rolePtr"
       },
       {
-        "type": "BYTE",
-        "name": "impostor"
+        "type": "UINT",
+        "name": "taskPtr"
       },
       {
         "type": "BYTE",
@@ -177,7 +165,7 @@
       },
       {
         "type": "SKIP",
-        "skip": 2,
+        "skip": 3,
         "name": "unused"
       },
       {
@@ -186,25 +174,25 @@
       }
     ],
     "isDummy": [
-      137
+      160
     ],
     "isLocal": [
-      84
+      108
     ],
     "localX": [
-      96,
+      120,
       80
     ],
     "localY": [
-      96,
+      120,
       84
     ],
     "remoteX": [
-      96,
+      120,
       60
     ],
     "remoteY": [
-      96,
+      120,
       64
     ],
     "bufferLength": 56,
@@ -213,36 +201,37 @@
       0
     ],
     "inVent": [
-      49
+      68
     ],
     "clientId": [
       28
     ],
     "currentOutfit": [
-      -1
+      64
     ],
     "roleTeam": [
-      -1
+      60
     ],
     "nameText": [
-      76,
+      60,
+      28,
       128
     ],
     "outfit": {
       "colorId": [
-        -1
+        12
       ],
       "hatId": [
-        -1
+        16
       ],
       "skinId": [
-        -1
+        24
       ],
       "visorId": [
-        -1
+        28
       ],
       "playerName": [
-        -1
+        40
       ]
     }
   },
