@@ -41,7 +41,7 @@
   "door_isOpen": 32,
   "deconDoorUpperOpen": [
     24,
-    24
+    32
   ],
   "deconDoorLowerOpen": [
     32,
@@ -286,31 +286,11 @@
       "patternOffset": 3,
       "addressOffset": 4
     },
-    "showModStamp": {
-      "sig": null,
-      "patternOffset": 0,
-      "addressOffset": 0
-    },
-    "connectFunc": {
-      "sig": null,
-      "patternOffset": 0,
-      "addressOffset": 0
-    },
-    "fixedUpdateFunc": {
-      "sig": null,
-      "patternOffset": 0,
-      "addressOffset": 0
-    },
-    "pingMessageString": {
-      "sig": null,
-      "patternOffset": 0,
-      "addressOffset": 0
-    },
-    "modLateUpdate": {
-      "sig": null,
-      "patternOffset": 0,
-      "addressOffset": 0
-    },
+    "showModStamp": {},
+    "connectFunc": {},
+    "fixedUpdateFunc": {},
+    "pingMessageString": {},
+    "modLateUpdate": {},
     "serverManager": {
       "sig": "48 8B 05 ? ? ? ? 48 89 74 24 ? F6 80 ? ? ? ? 04",
       "patternOffset": 3,
