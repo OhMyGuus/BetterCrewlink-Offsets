@@ -8,6 +8,15 @@
     "Obfucated": false
   },
   {
+    "Date": "2022-10-18T17:03:20Z",
+    "ManifestId": 4,
+    "InnerNetClient": 40425848,
+    "BroadcastVersion": 50563850,
+    "Version": "V2022.10.18m",
+    "Obfucated": false,
+    "x64": true
+  },
+  {
     "Date": "2022-09-20T17:04:03Z",
     "ManifestId": 2481435393334839152,
     "InnerNetClient": 33043136,
