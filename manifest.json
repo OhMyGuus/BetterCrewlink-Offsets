@@ -25,6 +25,14 @@
     "x64": true
   },
   {
+    "Date": "2022-10-18T17:03:20Z",
+    "ManifestId": 202210255,
+    "InnerNetClient": 32569452,
+    "BroadcastVersion": 50566300,
+    "Version": "V2022.10.25s",
+    "Obfucated": false
+  },
+  {
     "Date": "2022-09-20T17:04:03Z",
     "ManifestId": 2481435393334839152,
     "InnerNetClient": 33043136,

@@ -9,6 +9,14 @@
   },
   {
     "Date": "2022-10-18T17:03:20Z",
+    "ManifestId": 202210255,
+    "InnerNetClient": 32569452,
+    "BroadcastVersion": 50566300,
+    "Version": "V2022.10.25s",
+    "Obfucated": false
+  },
+  {
+    "Date": "2022-10-18T17:03:20Z",
     "ManifestId": 7491486149462341667,
     "InnerNetClient": 33096080,
     "BroadcastVersion": 50563850,
