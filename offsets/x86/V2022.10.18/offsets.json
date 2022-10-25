@@ -247,7 +247,7 @@
       "addressOffset": 0
     },
     "gameData": {
-      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50",
+      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50 E8 ? ? ? ? FF 35",
       "patternOffset": 1,
       "addressOffset": 0
     },
