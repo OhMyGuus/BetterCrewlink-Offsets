@@ -84,6 +84,11 @@
   "palette_shadowColor": [
     236
   ],
+  "playerControl_GameOptions": [
+    65535,
+    92,
+    4
+  ],
   "gameoptionsData": [
     65535,
     92,
