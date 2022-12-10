@@ -84,7 +84,7 @@
   "palette_shadowColor": [
     236
   ],
-  "playerControl_GameOptions": [
+  "gameoptionsData": [
     65535,
     92,
     4
@@ -258,7 +258,7 @@
       "addressOffset": 0
     },
     "gameData": {
-      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50",
+      "sig": "A1 ? ? ? ? 83 C4 04 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 FF 75 ? 50 E8 ? ? ? ? FF 35",
       "patternOffset": 1,
       "addressOffset": 0
     },
@@ -311,8 +311,14 @@
       "sig": "A1 ? ? ? ? 89 55 E0 F6 80 ? ? ? ? ? 74 14 83 78 74 00 75 0E 50 E8 ? ? ? ? A1 ? ? ? ? 83 C4 ? 8B 40 ? 6A",
       "patternOffset": 1,
       "addressOffset": 0
+    },
+    "gameOptionsManager": {
+      "sig": "FF 35 ? ? ? ? 6A 0D E8 ? ? ? ? 6A 00 FF 75 08 E8 ? ? ? ? 83 C4 1C 8A 0D ? ? ? ?",
+      "patternOffset": 2,
+      "addressOffset": 0
     }
   },
   "oldMeetingHud": false,
-  "disableWriting": false
+  "disableWriting": false,
+  "newGameOptions": false
 }

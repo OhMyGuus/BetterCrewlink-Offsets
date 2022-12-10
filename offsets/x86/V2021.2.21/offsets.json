@@ -8,7 +8,7 @@
     8
   ],
   "meetingHudState": [
-    132
+    -1
   ],
   "allPlayersPtr": [
     36,
@@ -29,13 +29,13 @@
     0
   ],
   "shipStatus_systems": [
-    132
+    140
   ],
   "shipStatus_map": [
-    212
+    228
   ],
   "shipstatus_allDoors": [
-    124
+    132
   ],
   "door_doorId": 16,
   "door_isOpen": 20,
@@ -48,11 +48,11 @@
     20
   ],
   "hqHudSystemType_CompletedConsoles": [
-    12,
+    -1,
     16
   ],
   "HudOverrideSystemType_isActive": [
-    8
+    -1
   ],
   "miniGame": [
     29719724,
@@ -60,18 +60,18 @@
     0
   ],
   "planetSurveillanceMinigame_currentCamera": [
-    100
+    -1
   ],
   "planetSurveillanceMinigame_camarasCount": [
-    80,
+    -1,
     12
   ],
   "surveillanceMinigame_FilteredRoomsCount": [
-    56,
+    -1,
     12
   ],
   "lightRadius": [
-    84,
+    -1,
     28
   ],
   "palette": [
@@ -79,10 +79,10 @@
     92
   ],
   "palette_playercolor": [
-    228
+    -1
   ],
   "palette_shadowColor": [
-    232
+    -1
   ],
   "gameoptionsData": [
     65535,
@@ -90,10 +90,10 @@
     4
   ],
   "gameOptions_MapId": [
-    16
+    -1
   ],
   "gameOptions_MaxPLayers": [
-    8
+    -1
   ],
   "serverManager_currentServer": [
     65535,
@@ -113,23 +113,18 @@
       92,
       0
     ],
-    "networkAddress": 48,
-    "networkPort": 52,
+    "networkAddress": -1,
+    "networkPort": -1,
     "gameMode": -1,
-    "gameId": 64,
-    "hostId": 68,
-    "clientId": 72,
-    "gameState": 100,
-    "onlineScene": 120,
-    "mainMenuScene": 124
+    "gameId": 72,
+    "hostId": 76,
+    "clientId": 80,
+    "gameState": 108,
+    "onlineScene": 124,
+    "mainMenuScene": 128
   },
   "player": {
     "struct": [
-      {
-        "type": "SKIP",
-        "skip": 8,
-        "name": "unused"
-      },
       {
         "type": "UINT",
         "name": "id"
@@ -171,36 +166,31 @@
         "name": "dead"
       },
       {
-        "type": "SKIP",
-        "skip": 2,
-        "name": "unused"
-      },
-      {
         "type": "UINT",
         "name": "objectPtr"
       }
     ],
     "isDummy": [
-      -1
+      137
     ],
     "isLocal": [
-      84
+      -1
     ],
     "localX": [
-      96,
-      80
+      100,
+      -1
     ],
     "localY": [
-      96,
-      84
+      100,
+      3
     ],
     "remoteX": [
-      96,
-      60
+      100,
+      -1
     ],
     "remoteY": [
-      96,
-      64
+      100,
+      3
     ],
     "bufferLength": 56,
     "offsets": [

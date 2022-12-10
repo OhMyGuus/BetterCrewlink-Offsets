@@ -17,129 +17,154 @@
   },
   "versions": {
     "default": {
-      "version": "V2022.10.25",
-      "file": "V2022.10.18/offsets.json",
-      "offsetsVersion": 3
+      "version": "V2022.12.8",
+      "file": "V2022.12.8/offsets.json",
+      "offsetsVersion": 7
+    },
+    "50569850": {
+      "version": "V2022.12.8",
+      "file": "V2022.12.8/offsets.json",
+      "offsetsVersion": 7
+    },
+    "50568050": {
+      "version": "V2022.12.8",
+      "file": "V2022.12.8/offsets.json",
+      "offsetsVersion": 7
     },
     "50566300": {
       "version": "V2022.10.25",
       "file": "V2022.10.18/offsets.json",
-      "offsetsVersion": 3
+      "offsetsVersion": 7
     },
     "50563850": {
       "version": "V2022.10.18",
       "file": "V2022.10.18/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50559600": {
       "version": "V2022.8.23",
       "file": "V2022.8.23/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50558200": {
       "version": "V2022.6.21",
       "file": "V2022.6.21/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50553700": {
       "version": "V2022.3.29",
       "file": "V2022.3.29/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50552300": {
       "version": "V2022.2.23",
       "file": "V2021.12.14/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50547300": {
       "version": "V2021.12.14",
       "file": "V2021.12.14/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50545250": {
       "version": "V2021.11.9",
       "file": "V2021.11.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50537300": {
       "version": "V2021.6.30",
       "file": "V2021.6.30/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50533450": {
       "version": "V2021.6.15",
       "file": "V2021.6.15/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50532300": {
-      "version": "V2021.5.10",
-      "file": "V2021.5.10/offsets.json",
-      "offsetsVersion": 2
+      "version": "V2021.4.12",
+      "file": "V2021.3.31/offsets.json",
+      "offsetsVersion": 7
+    },
+    "50531650": {
+      "version": "V2021.3.31",
+      "file": "V2021.3.31/offsets.json",
+      "offsetsVersion": 7
+    },
+    "50530650": {
+      "version": "V2021.3.5",
+      "file": "V2021.2.21/offsets.json",
+      "offsetsVersion": 7
+    },
+    "50529550": {
+      "version": "V2021.2.21",
+      "file": "V2021.2.21/offsets.json",
+      "offsetsVersion": 7
     },
     "50516550": {
       "version": "V2020.9.9",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50516250": {
       "version": "V2020.9.1",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50515800": {
       "version": "V2020.8.31",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50512900": {
       "version": "V2020.8.12",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50510900": {
       "version": "V2020.6.9",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50508000": {
       "version": "V2020.5.9",
       "file": "V2020.5.9/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50507300": {
       "version": "V2020.4.2",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50506850": {
       "version": "V2020.3.29",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50504450": {
       "version": "V2020.2.17",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50503950": {
       "version": "V2020.2.7",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50497400": {
       "version": "V2020.1.14",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50495400": {
       "version": "V2019.11.12",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     },
     "50493650": {
       "version": "V2019.11.5",
       "file": "V2019.11.5/offsets.json",
-      "offsetsVersion": 2
+      "offsetsVersion": 7
     }
   }
 }

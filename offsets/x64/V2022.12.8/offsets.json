@@ -29,13 +29,13 @@
     0
   ],
   "shipStatus_systems": [
-    216
+    224
   ],
   "shipStatus_map": [
-    380
+    388
   ],
   "shipstatus_allDoors": [
-    200
+    208
   ],
   "door_doorId": 28,
   "door_isOpen": 32,
@@ -60,19 +60,19 @@
     0
   ],
   "planetSurveillanceMinigame_currentCamera": [
-    216
+    224
   ],
   "planetSurveillanceMinigame_camarasCount": [
-    176,
+    184,
     24
   ],
   "surveillanceMinigame_FilteredRoomsCount": [
-    128,
+    136,
     24
   ],
   "lightRadius": [
     160,
-    52
+    76
   ],
   "palette": [
     37054352,
@@ -87,13 +87,14 @@
   "gameoptionsData": [
     37068784,
     184,
-    8
+    0,
+    48
   ],
   "gameOptions_MapId": [
-    56
+    24
   ],
   "gameOptions_MaxPLayers": [
-    48
+    16
   ],
   "serverManager_currentServer": [
     37166888,
@@ -113,15 +114,15 @@
       184,
       0
     ],
-    "networkAddress": 104,
-    "networkPort": 112,
-    "gameMode": 132,
-    "gameId": 136,
-    "hostId": 140,
-    "clientId": 144,
-    "gameState": 220,
-    "onlineScene": 248,
-    "mainMenuScene": 256
+    "networkAddress": 112,
+    "networkPort": 120,
+    "gameMode": -1,
+    "gameId": 144,
+    "hostId": 148,
+    "clientId": 152,
+    "gameState": 236,
+    "onlineScene": 264,
+    "mainMenuScene": 272
   },
   "player": {
     "struct": [
@@ -189,26 +190,26 @@
       }
     ],
     "isDummy": [
-      256
+      240
     ],
     "isLocal": [
       160
     ],
     "localX": [
       184,
-      108
+      100
     ],
     "localY": [
       184,
-      112
+      104
     ],
     "remoteX": [
       184,
-      88
+      80
     ],
     "remoteY": [
       184,
-      92
+      84
     ],
     "bufferLength": 96,
     "offsets": [
@@ -229,7 +230,7 @@
     ],
     "nameText": [
       80,
-      56,
+      64,
       216
     ],
     "outfit": {
@@ -304,5 +305,5 @@
   },
   "oldMeetingHud": false,
   "disableWriting": false,
-  "newGameOptions": false
+  "newGameOptions": true
 }

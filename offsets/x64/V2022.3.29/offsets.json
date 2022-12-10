@@ -84,7 +84,7 @@
   "palette_shadowColor": [
     416
   ],
-  "playerControl_GameOptions": [
+  "gameoptionsData": [
     37068784,
     184,
     8
@@ -294,8 +294,14 @@
       "sig": "48 8B 05 ? ? ? ? 48 89 74 24 ? F6 80 ? ? ? ? 04",
       "patternOffset": 3,
       "addressOffset": 4
+    },
+    "gameOptionsManager": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 19 48 85 DB 0F 84 95 ? ? ? 48",
+      "patternOffset": 3,
+      "addressOffset": 4
     }
   },
   "oldMeetingHud": false,
-  "disableWriting": false
+  "disableWriting": false,
+  "newGameOptions": false
 }
