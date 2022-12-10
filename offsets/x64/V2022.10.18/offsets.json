@@ -84,12 +84,16 @@
   "palette_shadowColor": [
     432
   ],
+  "playerControl_GameOptions": [
+    37068784,
+    184,
+    8
+  ],
   "gameoptionsData": [
     37068784,
     184,
     8
   ],
-  "playerControl_GameOptions": [0,0,0],
   "gameOptions_MapId": [
     56
   ],

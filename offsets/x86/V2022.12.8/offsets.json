@@ -72,7 +72,7 @@
   ],
   "lightRadius": [
     116,
-    48
+    12
   ],
   "palette": [
     65535,
@@ -84,7 +84,11 @@
   "palette_shadowColor": [
     424
   ],
-  "playerControl_GameOptions": [0,0,0],
+  "playerControl_GameOptions": [
+    65535,
+    92,
+    4
+  ],
   "gameoptionsData": [
     65535,
     92,
