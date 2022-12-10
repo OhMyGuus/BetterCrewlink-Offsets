@@ -1,5 +1,22 @@
 [
   {
+    "Date": "2022-12-10T17:03:20Z",
+    "ManifestId": 5,
+    "InnerNetClient": 41601720,
+    "BroadcastVersion": 50568050,
+    "Version": "V2022.12.8m",
+    "Obfucated": false,
+    "x64": true
+  },
+  {
+    "Date": "2022-12-09T18:02:18Z",
+    "ManifestId": 3666602116221813978,
+    "InnerNetClient": 34079192,
+    "BroadcastVersion": 50569850,
+    "Version": "V2022.12.8s",
+    "Obfucated": false
+  },
+  {
     "Date": "2022-10-19T19:29:42Z",
     "ManifestId": 4338750749031095433,
     "InnerNetClient": 33138068,
@@ -209,7 +226,7 @@
     "InnerNetClient": 42899700,
     "BroadcastVersion": 50532300,
     "Version": "V2021.4.14s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-04-12T21:03:38Z",
@@ -217,7 +234,7 @@
     "InnerNetClient": 42449684,
     "BroadcastVersion": 50532300,
     "Version": "V2021.4.12s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-04-01T03:53:05Z",
@@ -225,7 +242,7 @@
     "InnerNetClient": 42860212,
     "BroadcastVersion": 50531650,
     "Version": "V2021.3.31s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-31T21:59:24Z",
@@ -233,7 +250,7 @@
     "InnerNetClient": 42804080,
     "BroadcastVersion": 50531650,
     "Version": "V2021.3.31s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-31T18:01:52Z",
@@ -241,7 +258,7 @@
     "InnerNetClient": 42621948,
     "BroadcastVersion": 50531650,
     "Version": "V2021.3.31s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-05T21:49:35Z",
@@ -249,7 +266,7 @@
     "InnerNetClient": 46580344,
     "BroadcastVersion": 50530650,
     "Version": "V2021.3.5s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-05T21:41:34Z",
@@ -257,7 +274,7 @@
     "InnerNetClient": 44162500,
     "BroadcastVersion": 50530650,
     "Version": "V2021.3.5s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-05T20:22:17Z",
@@ -265,7 +282,7 @@
     "InnerNetClient": 46584064,
     "BroadcastVersion": 50529550,
     "Version": "V2021.2.21s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2021-03-05T19:15:54Z",
@@ -273,7 +290,7 @@
     "InnerNetClient": 44847676,
     "BroadcastVersion": 50529550,
     "Version": "V2021.2.21s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2020-12-10T22:43:35Z",
@@ -329,7 +346,7 @@
     "InnerNetClient": 21399616,
     "BroadcastVersion": 50516550,
     "Version": "V2020.9.22s",
-    "Obfucated": true
+    "Obfucated": false
   },
   {
     "Date": "2020-09-14T15:41:25Z",
