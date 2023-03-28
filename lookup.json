@@ -18,13 +18,13 @@
   "versions": {
     "default": {
       "version": "V2023.3.28",
-      "file": "V2023.3.28/offsets.json",
-      "offsetsVersion": 15
+      "file": "V2023.3.28.1/offsets.json",
+      "offsetsVersion": 16
     },
     "50577350": {
       "version": "V2023.3.28",
-      "file": "V2023.3.28/offsets.json",
-      "offsetsVersion": 15
+      "file": "V2023.3.28.1/offsets.json",
+      "offsetsVersion": 16
     },
     "50571700": {
       "version": "V2023.2.28",
