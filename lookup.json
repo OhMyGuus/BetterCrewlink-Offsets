@@ -17,19 +17,24 @@
   },
   "versions": {
     "default": {
-      "version": "V2023.6.13",
-      "file": "V2023.6.13/offsets.json",
-      "offsetsVersion": 18
+      "version": "V2023.7.11",
+      "file": "V2023.7.11/offsets.json",
+      "offsetsVersion": 15
+    },
+    "50585000": {
+      "version": "V2023.7.11",
+      "file": "V2023.7.11/offsets.json",
+      "offsetsVersion": 15
     },
     "50583250": {
       "version": "V2023.6.13",
       "file": "V2023.6.13/offsets.json",
-      "offsetsVersion": 18
+      "offsetsVersion": 15
     },
     "50577350": {
       "version": "V2023.3.28",
       "file": "V2023.3.28/offsets.json",
-      "offsetsVersion": 18
+      "offsetsVersion": 15
     },
     "50571700": {
       "version": "V2023.2.28",
