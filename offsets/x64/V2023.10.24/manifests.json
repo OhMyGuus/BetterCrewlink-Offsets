@@ -1,0 +1,11 @@
+[
+  {
+    "Date": "2023-10-24T17:00:09Z",
+    "ManifestId": 11,
+    "InnerNetClient": 42807624,
+    "BroadcastVersion": 50593050,
+    "Version": "V2023.10.24m",
+    "Obfucated": false,
+    "x64": true
+  }
+]

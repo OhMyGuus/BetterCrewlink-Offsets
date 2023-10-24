@@ -1,5 +1,22 @@
 [
   {
+    "Date": "2023-10-24T17:00:26Z",
+    "ManifestId": 531781757001821075,
+    "InnerNetClient": 35046788,
+    "BroadcastVersion": 50593050,
+    "Version": "V2023.10.24s",
+    "Obfucated": false
+  },
+  {
+    "Date": "2023-10-24T17:00:09Z",
+    "ManifestId": 11,
+    "InnerNetClient": 42807624,
+    "BroadcastVersion": 50593050,
+    "Version": "V2023.10.24m",
+    "Obfucated": false,
+    "x64": true
+  },
+  {
     "Date": "2023-07-17T17:00:09Z",
     "ManifestId": 9,
     "InnerNetClient": 42025544,
@@ -7,6 +24,14 @@
     "Version": "V2023.7.12m",
     "Obfucated": false,
     "x64": true
+  },
+  {
+    "Date": "2023-07-17T17:00:09Z",
+    "ManifestId": 10,
+    "InnerNetClient": 34400820,
+    "BroadcastVersion": 50585000,
+    "Version": "V2023.7.12s",
+    "Obfucated": false
   },
   {
     "Date": "2023-07-13T23:30:16Z",
