@@ -39,6 +39,7 @@
   ],
   "door_doorId": 28,
   "door_isOpen": 32,
+  "mushroomDoor_isOpen": 72,
   "deconDoorUpperOpen": [
     24,
     32
