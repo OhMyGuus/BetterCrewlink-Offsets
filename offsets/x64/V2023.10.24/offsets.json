@@ -39,6 +39,7 @@
   ],
   "door_doorId": 28,
   "door_isOpen": 32,
+  "mushroomDoor_isOpen": 72,
   "deconDoorUpperOpen": [
     24,
     32
@@ -202,11 +203,15 @@
     ],
     "localX": [
       200,
-      100
+      56,
+      16,
+      168
     ],
     "localY": [
       200,
-      104
+      56,
+      16,
+      172
     ],
     "remoteX": [
       200,

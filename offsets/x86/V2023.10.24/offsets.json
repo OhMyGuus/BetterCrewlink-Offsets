@@ -39,6 +39,7 @@
   ],
   "door_doorId": 16,
   "door_isOpen": 20,
+  "mushroomDoor_isOpen": 40,
   "deconDoorUpperOpen": [
     12,
     20
@@ -195,11 +196,15 @@
     ],
     "remoteX": [
       136,
-      64
+      40,
+      8,
+      116
     ],
     "remoteY": [
       136,
-      68
+      40,
+      8,
+      120
     ],
     "bufferLength": 56,
     "offsets": [
