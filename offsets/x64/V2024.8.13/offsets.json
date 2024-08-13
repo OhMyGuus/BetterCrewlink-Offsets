@@ -1,0 +1,323 @@
+{
+  "meetingHud": [
+    36969344,
+    184,
+    0
+  ],
+  "objectCachePtr": [
+    16
+  ],
+  "meetingHudState": [
+    208
+  ],
+  "allPlayersPtr": [
+    37267168,
+    184,
+    0,
+    24
+  ],
+  "allPlayers": [
+    16
+  ],
+  "playerCount": [
+    24
+  ],
+  "playerAddrPtr": 32,
+  "shipStatus": [
+    37178328,
+    184,
+    0
+  ],
+  "shipStatus_systems": [
+    240
+  ],
+  "shipStatus_map": [
+    420
+  ],
+  "shipstatus_allDoors": [
+    216
+  ],
+  "door_doorId": 28,
+  "door_isOpen": 32,
+  "mushroomDoor_isOpen": 80,
+  "deconDoorUpperOpen": [
+    24,
+    32
+  ],
+  "deconDoorLowerOpen": [
+    32,
+    32
+  ],
+  "hqHudSystemType_CompletedConsoles": [
+    24,
+    32
+  ],
+  "HudOverrideSystemType_isActive": [
+    16
+  ],
+  "miniGame": [
+    36980248,
+    184,
+    0
+  ],
+  "planetSurveillanceMinigame_currentCamera": [
+    248
+  ],
+  "planetSurveillanceMinigame_camarasCount": [
+    208,
+    24
+  ],
+  "surveillanceMinigame_FilteredRoomsCount": [
+    160,
+    24
+  ],
+  "lightRadius": [
+    192,
+    24
+  ],
+  "palette": [
+    37054352,
+    184
+  ],
+  "palette_playercolor": [
+    648
+  ],
+  "palette_shadowColor": [
+    656
+  ],
+  "playerControl_GameOptions": [
+    37068784,
+    184,
+    8
+  ],
+  "gameoptionsData": [
+    37068784,
+    184,
+    0,
+    48
+  ],
+  "gameOptions_MapId": [
+    28
+  ],
+  "gameOptions_MaxPLayers": [
+    20
+  ],
+  "serverManager_currentServer": [
+    37166888,
+    184,
+    16,
+    32,
+    16
+  ],
+  "connectFunc": 4095,
+  "showModStampFunc": 4095,
+  "modLateUpdateFunc": 255,
+  "fixedUpdateFunc": 4095,
+  "pingMessageString": 4095,
+  "innerNetClient": {
+    "base": [
+      37051656,
+      184,
+      0
+    ],
+    "networkAddress": 112,
+    "networkPort": 120,
+    "gameMode": -1,
+    "gameId": 144,
+    "hostId": 148,
+    "clientId": 152,
+    "gameState": 236,
+    "onlineScene": 264,
+    "mainMenuScene": 272
+  },
+  "player": {
+    "struct": [
+      {
+        "type": "SKIP",
+        "skip": 48,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "id"
+      },
+      {
+        "type": "SKIP",
+        "skip": 28,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "outfitsPtr"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "playerLevel"
+      },
+      {
+        "type": "UINT",
+        "name": "disconnected"
+      },
+      {
+        "type": "UINT",
+        "name": "rolePtr"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "taskPtr"
+      },
+      {
+        "type": "SKIP",
+        "skip": 4,
+        "name": "unused"
+      },
+      {
+        "type": "BYTE",
+        "name": "dead"
+      },
+      {
+        "type": "SKIP",
+        "skip": 7,
+        "name": "unused"
+      },
+      {
+        "type": "UINT",
+        "name": "objectPtr"
+      }
+    ],
+    "isDummy": [
+      272
+    ],
+    "isLocal": [
+      192
+    ],
+    "localX": [
+      216,
+      56,
+      16,
+      168
+    ],
+    "localY": [
+      216,
+      56,
+      16,
+      172
+    ],
+    "remoteX": [
+      216,
+      56,
+      16,
+      168
+    ],
+    "remoteY": [
+      216,
+      56,
+      16,
+      172
+    ],
+    "bufferLength": 128,
+    "offsets": [
+      0,
+      0
+    ],
+    "inVent": [
+      96
+    ],
+    "clientId": [
+      40
+    ],
+    "currentOutfit": [
+      92
+    ],
+    "roleTeam": [
+      100
+    ],
+    "nameText": [
+      80,
+      88,
+      216
+    ],
+    "outfit": {
+      "colorId": [
+        16
+      ],
+      "hatId": [
+        24
+      ],
+      "skinId": [
+        40
+      ],
+      "visorId": [
+        48
+      ],
+      "playerName": [
+        64
+      ]
+    }
+  },
+  "signatures": {
+    "innerNetClient": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 0F 84 ? ? ? ? 8B 81 ? ? ? ? ",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "meetingHud": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 74 72",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "gameData": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 74 66 0F B6 53 19",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "shipStatus": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 09 48 85 C9 0F 84 ? ? ? ? 48 8B 15 ? ? ? ? 48 8B 89",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "miniGame": {
+      "sig": "48 8D 0D ? ? ? ? E8 ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? C6 05 ? ? ? ? ? 48 8B 05 ? ? ? ? 33 DB 48 89 5D",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "palette": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 80 ? ? ? ? 0F 10 40 30 EB 2C",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "playerControl": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 01 48 8B CF 48 89 47 20 48 8B 07 48 8B 90 ? ? ? ? FF 90",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "showModStamp": {},
+    "connectFunc": {},
+    "fixedUpdateFunc": {},
+    "pingMessageString": {},
+    "modLateUpdate": {},
+    "serverManager": {
+      "sig": "48 8B 05 ? ? ? ? F6 80 ? ? ? ? ? 74 18 83 B8 ? ? ? ? ? 75 0F 48 8B C8 E8 ? ? ? ? 48 8B 05 ? ? ? ? 48 8B 80 ? ? ? ? 45 33 C0 48 8B 10 48 8D 4C 24 ?",
+      "patternOffset": 3,
+      "addressOffset": 4
+    },
+    "gameOptionsManager": {
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 19 48 85 DB 0F 84 95 ? ? ? 48",
+      "patternOffset": 3,
+      "addressOffset": 4
+    }
+  },
+  "oldMeetingHud": false,
+  "disableWriting": false,
+  "newGameOptions": true
+}
