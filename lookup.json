@@ -29,7 +29,17 @@
     "50605450": {
       "version": "V2024.6.18",
       "file": "V2024.6.18/offsets.json",
-      "offsetsVersion": 31
+      "offsetsVersion": 15
+    },
+    "50603750": {
+      "version": "V2024.6.4",
+      "file": "V2023.10.24/offsets.json",
+      "offsetsVersion": 15
+    },
+    "50603650": {
+      "version": "V2024.3.5",
+      "file": "V2023.10.24/offsets.json",
+      "offsetsVersion": 15
     },
     "50595550": {
       "version": "V2023.11.28",
