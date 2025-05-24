@@ -1,0 +1,185 @@
+{
+    "meetingHud": [29717412, 92, 0],
+    "objectCachePtr": [8],
+    "meetingHudState": [132],
+    "allPlayersPtr": [0, 92, 0, 16],
+    "allPlayers": [8],
+    "playerCount": [12],
+    "playerAddrPtr": 16,
+    "shipStatus": [29719724, 92, 0],
+    "shipStatus_systems": [160],
+    "shipStatus_map": [256],
+    "shipstatus_allDoors": [148],
+    "door_doorId": 16,
+    "door_isOpen": 24,
+    "mushroomDoor_isOpen": 48,
+    "deconDoorUpperOpen": [16, 24],
+    "deconDoorLowerOpen": [20, 24],
+    "hqHudSystemType_CompletedConsoles": [12, 16],
+    "HudOverrideSystemType_isActive": [8],
+    "miniGame": [29719724, 92, 0],
+    "planetSurveillanceMinigame_currentCamera": [136],
+    "planetSurveillanceMinigame_camarasCount": [116, 12],
+    "surveillanceMinigame_FilteredRoomsCount": [92, 12],
+    "lightRadius": [140, 16],
+    "palette": [65535, 92],
+    "palette_playercolor": [644],
+    "palette_shadowColor": [648],
+    "playerControl_GameOptions": [65535, 92, 4],
+    "gameoptionsData": [65535, 92, 0, 20],
+    "gameOptions_MapId": [20],
+    "gameOptions_MaxPlayers": [12],
+    "serverManager_currentServer": [65535, 92, 8, 16, 8],
+    "connectFunc": 4095,
+    "showModStampFunc": 4095,
+    "modLateUpdateFunc": 255,
+    "fixedUpdateFunc": 4095,
+    "pingMessageString": 4095,
+    "innerNetClient": {
+        "base": [29720404, 92, 0],
+        "networkAddress": 20,
+        "networkPort": 24,
+        "gameMode": -1,
+        "gameId": 44,
+        "hostId": 48,
+        "clientId": 52,
+        "gameState": 100,
+        "onlineScene": 176,
+        "mainMenuScene": 180
+    },
+    "player": {
+        "struct": [{
+                "type": "SKIP",
+                "skip": 40,
+                "name": "unused"
+            }, {
+                "type": "UINT",
+                "name": "id"
+            }, {
+                "type": "SKIP",
+                "skip": 20,
+                "name": "unused"
+            }, {
+                "type": "UINT",
+                "name": "outfitsPtr"
+            }, {
+                "type": "UINT",
+                "name": "playerLevel"
+            }, {
+                "type": "UINT",
+                "name": "disconnected"
+            }, {
+                "type": "UINT",
+                "name": "rolePtr"
+            }, {
+                "type": "UINT",
+                "name": "taskPtr"
+            }, {
+                "type": "BYTE",
+                "name": "dead"
+            }, {
+                "type": "SKIP",
+                "skip": 3,
+                "name": "unused"
+            }, {
+                "type": "UINT",
+                "name": "objectPtr"
+            }
+        ],
+        "isDummy": [184],
+        "isLocal": [60, 131],
+        "localX": [152, 44, 8, 120],
+        "localY": [152, 44, 8, 124],
+        "remoteX": [152, 44, 8, 120],
+        "remoteY": [152, 44, 8, 124],
+        "bufferLength": 92,
+        "offsets": [0, 0],
+        "inVent": [72],
+        "clientId": [32],
+        "currentOutfit": [68],
+        "roleTeam": [76],
+        "nameText": [60, 52, 132],
+        "outfit": {
+            "colorId": [8],
+            "hatId": [12],
+            "skinId": [20],
+            "visorId": [24],
+            "playerName": [32]
+        }
+    },
+    "signatures": {
+        "innerNetClient": {
+            "sig": "8B 0D ? ? ? ? 8B F0 83 C4 08 89 75 08",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "meetingHud": {
+            "sig": "8B 0D ? ? ? ? 83 C4 08 8B 49 5C 5B 89 01",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "gameData": {
+            "sig": "8B 0D ? ? ? ? 8B F0 83 C4 04 8B 49 5C",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "shipStatus": {
+            "sig": "8B 0D ? ? ? ? 8B 41 5C 8B 00 85 C0 0F 84 ? ? ? ? F3",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "miniGame": {
+            "sig": "A1 ? ? ? ? 8B 40 5C 8B 08 85 C9 0F 84 ? ? ? ? 8B 01 FF B0 ? ? ? ? 8B 80 ? ? ? ? 51 FF D0 83 C4 08 A1 ? ? ? ? 8B 40 5C",
+            "patternOffset": 1,
+            "addressOffset": 0
+        },
+        "palette": {
+            "sig": "A1 ? ? ? ? 7C 1D 83",
+            "patternOffset": 1,
+            "addressOffset": 0
+        },
+        "playerControl": {
+            "sig": "8B 0D ? ? ? ? 83 C4 04 8B 41 5C 8B 00 85 C0 74 2B",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "showModStamp": {
+            "sig": "55 8B EC 8B 45 08 8B 40 10 85 C0 74 0F 6A 00 6A 01 50 E8 ? ? ? ? 83 C4 0C 5D C3 E9 ? ? ? ?",
+            "patternOffset": 0,
+            "addressOffset": -5
+        },
+        "connectFunc": {
+            "sig": "E8 ? ? ? ? A1 ? ? ? ? 83 C4 0C 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 50 E8 ? ? ? ? 89",
+            "patternOffset": 1,
+            "addressOffset": 4
+        },
+        "fixedUpdateFunc": {
+            "sig": "75 ? 8B 46 ? 85 C0 74 0B 6A 00 50 E8 ? ? ? ? 83 C4 08 83 7E ? 00",
+            "patternOffset": 0,
+            "addressOffset": -5
+        },
+        "pingMessageString": {
+            "sig": "E8 ? ? ? ? 6A 00 50 FF 35 ? ? ? ? E8 ? ? ? ? 83 C4 1C 8B C8 85 F6 74 1A 8B 06 FF B0 ? ? ? ? 8B",
+            "patternOffset": 10,
+            "addressOffset": 0
+        },
+        "modLateUpdate": {
+            "sig": "53 8B DC 83 EC 08 83 E4 F0 83 C4 04 55 8B 6B 04 89 6C 24 04 8B EC 83 EC 28 80 3D",
+            "patternOffset": 0,
+            "addressOffset": 0
+        },
+        "serverManager": {
+            "sig": "8B 0D ? ? ? ? 83 C4 04 8B 55 EC 8B 41 5C 8B 00 85 C0 0F 84 ? ? ? ? 3B 50 0C 0F 8D",
+            "patternOffset": 2,
+            "addressOffset": 0
+        },
+        "gameOptionsManager": {
+            "sig": "A1 ? ? ? ? 8B 40 5C 8B 00 85 C0 0F 84 ? ? ? ? 6A 00 50 E8 ? ? ? ? 8B 0D ? ? ? ? 83 C4 08 89 45 F8",
+            "patternOffset": 1,
+            "addressOffset": 0
+        }
+    },
+    "oldMeetingHud": false,
+    "disableWriting": true,
+    "newGameOptions": true
+}
