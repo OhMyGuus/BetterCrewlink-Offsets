@@ -28,7 +28,7 @@
     "playerControl_GameOptions": [65535, 92, 4],
     "gameoptionsData": [65535, 92, 0, 20],
     "gameOptions_MapId": [20],
-    "gameOptions_MaxPlayers": [12],
+    "gameOptions_MaxPLayers": [12],
     "serverManager_currentServer": [65535, 92, 8, 16, 8],
     "connectFunc": 4095,
     "showModStampFunc": 4095,
