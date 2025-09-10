@@ -17,9 +17,9 @@
   },
   "versions": {
     "default": {
-      "version": "V2024.8.13",
-      "file": "V2024.8.13/offsets.json",
-      "offsetsVersion": 15
+	  "version": "V2025.5.20",
+	  "file": "V2025.5.20/offsets.json",
+      "offsetsVersion": 17
     },
 	"50632950": {
 		"version": "V2025.5.20",
