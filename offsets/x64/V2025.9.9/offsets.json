@@ -273,7 +273,7 @@
       "addressOffset": 4
     },
     "meetingHud": {
-      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 74 60",
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 74",
       "patternOffset": 3,
       "addressOffset": 4
     },
@@ -293,7 +293,7 @@
       "addressOffset": 4
     },
     "palette": {
-      "sig": "48 8B 05 ? ? ? ? 0F 57 C0 0F C6",
+      "sig": "48 8B 05 ? ? ? ? 0F 10 4D F0",
       "patternOffset": 3,
       "addressOffset": 4
     },
