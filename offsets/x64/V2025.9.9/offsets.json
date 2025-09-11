@@ -293,7 +293,7 @@
       "addressOffset": 4
     },
     "palette": {
-      "sig": "48 8B 05 ? ? ? ? 0F 10 4D F0",
+      "sig": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 8B 45 18 0F 11 81 ? ? ? ? 8B C8 C1 E9 08",
       "patternOffset": 3,
       "addressOffset": 4
     },
