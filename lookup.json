@@ -17,9 +17,14 @@
   },
   "versions": {
     "default": {
-      "version": "V2025.9.9",
-      "file": "V2025.9.9/offsets.json",
-      "offsetsVersion": 20
+      "version": "V17.4.0",
+      "file": "V17.4.0/offsets.json",
+      "offsetsVersion": 1
+    },
+    "50656300": {
+      "version": "V17.4.0",
+      "file": "V17.4.0/offsets.json",
+      "offsetsVersion": 1
     },
     "50643450": {
       "version": "V17.1.0s",
