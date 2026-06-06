@@ -268,8 +268,8 @@
   },
   "signatures": {
     "innerNetClient": {
-      "sig": "48 8B 05 ? ? ? ? 48 8B 88 B8 00 00 00 3B 79 08",
-      "patternOffset": 3,
+      "sig": "74 29 48 8B 05 ? ? ? ? 48 8B 88 B8 00 00 00 48 8B 09 48 85 C9 0F 84 F2 00 00 00",
+      "patternOffset": 5,
       "addressOffset": 4
     },
     "meetingHud": {
@@ -278,7 +278,7 @@
       "addressOffset": 4
     },
     "gameData": {
-      "sig": "48 8B 0D ? ? ? ? E8 ? ? ? ? 4C 8B F0 33 D2 48 8B C8 E8 ? ? ? ? 90 48 8B 5F 18",
+      "sig": "48 8B 0D ? ? ? ? 48 8B D8 48 8B 91 B8 00 00 00 48 8B 0A 48 85 C9 74 ? 33 D2",
       "patternOffset": 3,
       "addressOffset": 4
     },
